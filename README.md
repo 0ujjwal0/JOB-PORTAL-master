@@ -1,6 +1,6 @@
 # MERN Stack Job Portal
 
-Welcome to the Job Portal project! This project is a job portal application built using the MERN stack (MongoDB, Express, React, Node.js).
+Welcome to the JARS- A Job Portal project! This project is a job portal application built using the MERN stack (MongoDB, Express, React, Node.js).
 
 ## Table of Contents
 
@@ -69,7 +69,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-Once both the backend and frontend servers are running, you can access the application on your local machine. The default development server is typically available at `http://localhost:3000`.
+Once both the backend and frontend servers are running, you can access the application on your local machine. The default development server is typically available at `http://localhost:5173`.
 
 ## Contributing
 
