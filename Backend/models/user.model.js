@@ -41,7 +41,7 @@ const userSchema = new mongoose.Schema(
       },
       skills: [{ type: String }],
       resume: {
-        type: String, // URL to resume file
+        type: String,
       },
       resumeOriginalname: {
         type: String, // Original name of resume file
