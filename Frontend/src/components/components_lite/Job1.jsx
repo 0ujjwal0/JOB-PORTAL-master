@@ -3,10 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "../ui/button";
 import { Avatar, AvatarImage } from "../ui/avatar";
 import { Badge } from "../ui/badge";
-import { Bookmark } from "lucide-react";
 
 const Job1 = ({ job }) => {
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const daysAgoFunction = (mongodbTime) => {
     const createdAt = new Date(mongodbTime);
@@ -23,9 +22,6 @@ const Job1 = ({ job }) => {
             ? "Today"
             : `${daysAgoFunction(job?.createdAt)} days ago`}
         </p>
-        <Button variant="outline" className="rounded-full" size="icon">
-          <Bookmark />
-        </Button>
       </div>
 
       <div className="flex items-center gap-2 my-2">
@@ -62,26 +58,12 @@ const Job1 = ({ job }) => {
         >
           Details
         </Button>
-        <Button className="bg-[#7209b7]">Save For Later</Button>
       </div>
     </div>
   );
 };
 
 export default Job1;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React from "react";
 // import { Button } from "../ui/button";

@@ -33,14 +33,6 @@ const filterData = [
       "desktop",
     ],
   },
-  {
-    filterType: "Experience",
-    array: ["0-3 years", "3-5 years", "5-7 years", "7+ years"],
-  },
-  {
-    filterType: "Salary",
-    array: ["0-50k", "50k-100k", "100k-200k", "200k+"],
-  },
 ];
 
 const Filter = () => {

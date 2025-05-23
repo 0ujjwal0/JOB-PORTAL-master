@@ -33,8 +33,7 @@ const Header = () => {
           </h2>
           <p>
             Start your hunt for the best, life-changing career opportunities
-            from here in your <br />
-            selected areas conveniently and get hired quickly.
+            from here
           </p>
           <div className="flex w-[40%] shadow-lg border border-gray-300 pl-3 rounded-full  items-center gap-4 mx-auto ">
             <input
